@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.elem{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 200px;
+    font-weight: 700;
+    background-color: black;
+    padding: 20px;
+    text-transform: uppercase;
+}
+#head2 h1{
+    background-color: white;
+}

@@ -1,0 +1,121 @@
+:root{
+    --primary: #111;
+    --secondary: #dadada;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    /* color: white; */
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height: 200%;
+    background-color: var(--primary);
+    padding: 30px;
+}
+
+
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: #dadada; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#ek{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#cir{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(186, 52, 186);
+}
+#img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #111;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#text{
+    margin-left: 8px;
+}
+#text h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+#text h5{
+    font-size: 13px;
+    font-weight: 500;
+    color: #4c4c4c;
+    /* opacity: .8; */
+}
+
+#do{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#do h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--secondary);
+}
+button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+#pag1{
+    width: 100%;
+    height: calc(50% - 100px);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: radial-gradient(purple black); */
+}
+
+#pag1 h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(238, 9, 238);
+}
+span{
+    font-size: 80px;
+    font-weight: 600;
+    color: var(--secondary);
+}

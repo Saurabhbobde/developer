@@ -1,0 +1,77 @@
+*{
+    marging: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #817373;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://github.com/asynchronousJavascriptor/b26/blob/main/watch.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+}
+
+#left img{
+    width: 50%;
+    margin-top: 30px;
+}
+
+#left h4{
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#left h5{
+    text-transform: capitalize;
+    font-weight: 700;
+    opacity: .5;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://github.com/asynchronousJavascriptor/b26/blob/main/carbon.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+}
+
+#right img{
+    width: 80%;
+    margin-top: 5%;
+}
+
+#right h4{
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#right h4{
+    margin: 0px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+}

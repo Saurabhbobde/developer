@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 500%;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#one {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    padding: 25px 0 0 25px;
+}
+
+#one img {
+    width: 10%;
+    height: 50%;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#two {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#two a {
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 60%;
+    text-decoration: none;
+    color: black;
+}
+
+#three {
+    width: 20%;
+    height: 100%;
+    text-align: end;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#page1 {
+    width: 100%;
+    height: 20%;
+}
+
+#page1 h1 {
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: .7;
+    margin-top: 20px;
+}
+#page1 h2 {
+    margin-left: 20%;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: .7;
+    margin-top: 20px;
+}
+#page1 h3 {
+    margin-left: 30%;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: .7;
+    margin-top: 20px;
+}
+#page1 h4 {
+    margin-left: 40%;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: .7;
+    margin-top: 20px;
+}
+
+#page1 h6{
+    margin-left: 75%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'gilroy';
+    margin-top: 20px;
+}

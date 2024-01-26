@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#overlay{
+    width: 20%;
+    height: 100%;
+    padding: 50px;
+    background-color: rgb(216, 219, 219);
+}
+#overlay h1{
+    text-align: center;
+    border:  solid #915f233f;
+    color: rgb(241, 147, 25);
+    font-size: 40px;
+    font-weight: 500;
+}
+#overlay h1:hover{
+    color: rgb(173, 23, 23);
+}
+#overlay h4{
+    font-family: 'gilroy';
+    margin-top: 20px;
+}
+#overlay #nav h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS';
+}
+#overlay input:hover{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(26, 25, 23);
+}
+#overlay i:hover{
+    color: rgb(201, 127, 48);
+    font-weight: 700;
+}
+#overlay #nav h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+#overlay #nav h4:hover{
+    color: rgb(201, 127, 48);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+#temp{
+    width: 80%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+#temp #second{
+    width: 33.5%;
+    height: 100%;
+    background-color: azure;
+    background-image: url(https://m.media-amazon.com/images/I/91teU0eSGJL._SL1500_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#temp #second:hover{
+    transition: 0.5s ease;
+    transform: scale(1.15);
+}
+#temp #first{
+    width: 33.5%;
+    height: 100%;
+    background-color: azure;
+    background-image: url(https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1636&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#temp #first:hover{
+    transition: 0.5s ease;
+    transform: scale(1.15);
+}
+#temp #third{
+    width: 33.5%;
+    height: 100%;
+    background-color: azure;
+    background-image: url(https://images.unsplash.com/photo-1596727147705-61a532a659bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFydmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#temp #third:hover{
+    transition: 0.5s ease;
+    transform: scale(1.15);
+}
