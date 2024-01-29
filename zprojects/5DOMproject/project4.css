@@ -34,8 +34,9 @@ h1{
     height: 150px;
     width: 150px;
     object-fit: cover;
+    object-position: top;
     position: absolute;
     border-radius: 50%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-10%,-250%); */
     transition: all linear 0.1s;
 }
